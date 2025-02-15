@@ -4,8 +4,8 @@ This repository contains the scripts for the paper "Measuring the style of Itali
 
 ## Dataset
 
-Because of copyright and privacy issues, I cannot share the corpora that I used for the analyses. The "corpus_clean" folder only contains placeholder files.  
-The main statistics can be found here:  
+Because of copyright and privacy issues, I cannot share the corpus that I used for the analyses. The "corpus_clean" folder only contains placeholder files.  
+The main statistics of the analyzed corpus can be found here:  
 
 ```
                                      |  Social Reading  |  Paper Magazines
@@ -22,6 +22,8 @@ Standard deviation of review length  |  182.5           |  349.6
 
 ## Instructions
 
-All scripts should be run by using [RStudio](https://posit.co/download/rstudio-desktop/).  
-Scripts should be run in the following oder:  
-- 
+Install all packages listed in the `requirements.txt` file.  
+All .R scripts should be run by using [RStudio](https://posit.co/download/rstudio-desktop/). Scripts should be run in the following oder:  
+1. `stylo_analysis.R`  
+2. All the other scripts, as they read the results produced by the first one
+

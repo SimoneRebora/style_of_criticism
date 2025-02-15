@@ -1,0 +1,11 @@
+ggplot2 3.5.1
+ggraph 2.2.1
+gridExtra 2.3
+igraph 2.0.3
+mclust 6.1.1
+quanteda 4.1.0
+reshape2 1.4.4
+stringr 1.5.1
+stylo 0.7.5
+tidyverse 2.0.0
+udpipe 0.8.11
